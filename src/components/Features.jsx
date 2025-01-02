@@ -65,7 +65,7 @@ const Bentocard = ({ src, title, description, isComingSoon }) => {
 
 const Features = () => {
   return (
-    <section className="bg-black pb-52">
+    <section id="features" className="bg-black pb-52">
       <div className="constainer mx-auto px-3 md:px-10">
         <div className="px-5 py-32">
           <p className="font-circular-web text-lg text-blue-50">
@@ -83,7 +83,7 @@ const Features = () => {
             src="videos/feature-1.mp4"
             title={
               <>
-                radi <b>n</b>t
+                radia<b>n</b>t
               </>
             }
             description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus sed culpa quasi reiciendis rem, soluta sit fuga mollitia error corporis nostrum ipsa minima magnam id aperiam omnis ut quo debitis"
